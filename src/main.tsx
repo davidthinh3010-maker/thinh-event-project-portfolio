@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import PortfolioApp from './PortfolioApp';
 import './portfolio.css';
-import './sprite.css';
+import './project-stories.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

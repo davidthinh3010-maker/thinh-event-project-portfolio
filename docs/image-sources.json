@@ -1,0 +1,370 @@
+[
+  {
+    "project": "oxford",
+    "source": "BG 2.png",
+    "originalWidth": 1920,
+    "originalHeight": 1080,
+    "phase": "artwork",
+    "output": "/assets/projects/oxford-1-1920.webp"
+  },
+  {
+    "project": "oxford",
+    "source": "BG KHÁNH TIẾT.png",
+    "originalWidth": 1920,
+    "originalHeight": 1080,
+    "phase": "artwork",
+    "output": "/assets/projects/oxford-2-1920.webp"
+  },
+  {
+    "project": "nf1",
+    "source": "Backdrop LCD(1).png",
+    "originalWidth": 1920,
+    "originalHeight": 1080,
+    "phase": "artwork",
+    "output": "/assets/projects/nf1-1-1920.webp"
+  },
+  {
+    "project": "lumi",
+    "source": "Ảnh cho Port\\capital land\\The Lumi\\1788489512477_197653899118277285_3243444094112063512_2ac5c55acd4bd1ea462ad2af76d06e25.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/lumi-1-2200.webp"
+  },
+  {
+    "project": "lumi",
+    "source": "Ảnh cho Port\\capital land\\The Lumi\\1788489502995_197653899118277285_3243444094112063512_1b921d62a5ab4909740b9bebfd82a214.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "setup",
+    "output": "/assets/projects/lumi-2-2200.webp"
+  },
+  {
+    "project": "lumi",
+    "source": "Ảnh cho Port\\capital land\\The Lumi\\1788489505556_197653899118277285_3243444094112063512_8188e82257aa3d9436b09cc716025d17.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "setup",
+    "output": "/assets/projects/lumi-3-2200.webp"
+  },
+  {
+    "project": "lumi",
+    "source": "Ảnh cho Port\\capital land\\The Lumi\\1788489511586_197653899118277285_3243444094112063512_3aa138ee96066a70da99a97c0cb45d26.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/lumi-4-2200.webp"
+  },
+  {
+    "project": "sycamore",
+    "source": "Ảnh cho Port\\capital land\\Sycamore\\1729809625720_2248631627533870383_g8161871618494462815_acb9ad094a619d5fed04c30c16173334.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "final",
+    "output": "/assets/projects/sycamore-1-2200.webp"
+  },
+  {
+    "project": "sycamore",
+    "source": "Ảnh cho Port\\capital land\\Sycamore\\1729808973169_197653899118277285_g8161871618494462815_ee255000e25d55ff5aec1cc32d1937f5.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "setup",
+    "output": "/assets/projects/sycamore-2-2200.webp"
+  },
+  {
+    "project": "sycamore",
+    "source": "Ảnh cho Port\\capital land\\Sycamore\\1729808973154_197653899118277285_g8161871618494462815_75e99e24352d1d5f9da32dd1e4de2a7a.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "setup",
+    "output": "/assets/projects/sycamore-3-2200.webp"
+  },
+  {
+    "project": "sycamore",
+    "source": "Ảnh cho Port\\capital land\\Sycamore\\1729808973114_197653899118277285_g8161871618494462815_b8981fe02196ea11f7a29de6d80345bd.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "setup",
+    "output": "/assets/projects/sycamore-4-2200.webp"
+  },
+  {
+    "project": "orchard",
+    "source": "Ảnh cho Port\\capital land\\The Orchard Hill\\stage2.jpg",
+    "originalWidth": 3000,
+    "originalHeight": 1683,
+    "phase": "design",
+    "output": "/assets/projects/orchard-1-2200.webp"
+  },
+  {
+    "project": "orchard",
+    "source": "Ảnh cho Port\\capital land\\The Orchard Hill\\FOYER_cam5.jpg",
+    "originalWidth": 4000,
+    "originalHeight": 2251,
+    "phase": "design",
+    "output": "/assets/projects/orchard-2-2200.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788490318038_197653899118277285_3243444094112063512_fa7cdb24360800fbd49a1286a63bbcc6.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/decathlon-1-1281.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788490040793_197653899118277285_3243444094112063512_4a4b7820e4e7aaf752f901f5c880c95c.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "setup",
+    "output": "/assets/projects/decathlon-2-2200.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788490317953_197653899118277285_3243444094112063512_48ed5f3f7de14beb4e4792a328ce9d91.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "setup",
+    "output": "/assets/projects/decathlon-3-1281.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788489975447_197653899118277285_3243444094112063512_62e182167e9dc5d1b234997c89424526.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/decathlon-4-2200.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788490647817_197653899118277285_3243444094112063512_4c6bc49d97e2688ef08c281a7adb296e.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/decathlon-5-1281.webp"
+  },
+  {
+    "project": "decathlon",
+    "source": "Ảnh cho Port\\decathlon\\1788490647835_197653899118277285_3243444094112063512_74713d012cd604f756ecb841fb281a06.jpg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "phase": "final",
+    "output": "/assets/projects/decathlon-6-960.webp"
+  },
+  {
+    "project": "mocchau",
+    "source": "Ảnh cho Port\\Mocchau\\1786140622450_197653899118277285_104757294367521647_0bfffa536d3c830e3e8b0c1c231d157a.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "finishing",
+    "output": "/assets/projects/mocchau-1-2200.webp"
+  },
+  {
+    "project": "mocchau",
+    "source": "Ảnh cho Port\\Mocchau\\1786137655964_197653899118277285_104757294367521647_490948fe01806fec2fa65a13905378bb.jpg",
+    "originalWidth": 1920,
+    "originalHeight": 2560,
+    "phase": "setup",
+    "output": "/assets/projects/mocchau-2-1920.webp"
+  },
+  {
+    "project": "mocchau",
+    "source": "Ảnh cho Port\\Mocchau\\1786140596708_197653899118277285_104757294367521647_29f68bda47241fce9425e45ded5dd80f.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "finishing",
+    "output": "/assets/projects/mocchau-3-2200.webp"
+  },
+  {
+    "project": "mocchau",
+    "source": "Ảnh cho Port\\Mocchau\\Ảnh chụp màn hình 2026-09-04 102355.png",
+    "originalWidth": 1266,
+    "originalHeight": 569,
+    "phase": "overview",
+    "output": "/assets/projects/mocchau-4-1266.webp"
+  },
+  {
+    "project": "mocchau",
+    "source": "Ảnh cho Port\\Mocchau\\Ảnh chụp màn hình 2026-09-04 102341.png",
+    "originalWidth": 1288,
+    "originalHeight": 727,
+    "phase": "design",
+    "output": "/assets/projects/mocchau-5-1288.webp"
+  },
+  {
+    "project": "forbes",
+    "source": "Ảnh cho Port\\Fobes\\1788489585107_197653899118277285_3243444094112063512_e55c21901266f7cfaac40fc2fb6be222.jpg",
+    "originalWidth": 1280,
+    "originalHeight": 800,
+    "phase": "final",
+    "output": "/assets/projects/forbes-1-1280.webp"
+  },
+  {
+    "project": "forbes",
+    "source": "Ảnh cho Port\\Fobes\\1788489976018_197653899118277285_3243444094112063512_a6c490c3d407b6d1c430cfd647cdf80c.jpg",
+    "originalWidth": 2048,
+    "originalHeight": 1536,
+    "phase": "setup",
+    "output": "/assets/projects/forbes-2-2048.webp"
+  },
+  {
+    "project": "forbes",
+    "source": "Ảnh cho Port\\Fobes\\1788489584299_197653899118277285_3243444094112063512_64eada2eb48db850ce7b526e3e461e2c.jpg",
+    "originalWidth": 1280,
+    "originalHeight": 800,
+    "phase": "live",
+    "output": "/assets/projects/forbes-3-1280.webp"
+  },
+  {
+    "project": "gladia",
+    "source": "Ảnh cho Port\\Gladia Heights\\1788490523544_197653899118277285_3243444094112063512_95cd13c6d0a7b803009c4ce87eac28bc.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "final",
+    "output": "/assets/projects/gladia-1-2200.webp"
+  },
+  {
+    "project": "gladia",
+    "source": "Ảnh cho Port\\Gladia Heights\\1788490523550_197653899118277285_3243444094112063512_a81acd744ad71d740fd29172af0e06da.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "setup",
+    "output": "/assets/projects/gladia-2-2200.webp"
+  },
+  {
+    "project": "gladia",
+    "source": "Ảnh cho Port\\Gladia Heights\\1788490523555_197653899118277285_3243444094112063512_a283d6bacc8dd2f2b97700eab621f13f.jpg",
+    "originalWidth": 1920,
+    "originalHeight": 2560,
+    "phase": "setup",
+    "output": "/assets/projects/gladia-3-1920.webp"
+  },
+  {
+    "project": "prada",
+    "source": "Ảnh cho Port\\Prada\\1788490087521_197653899118277285_3243444094112063512_3bc38f3baf39ad782898a678555ff735.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/prada-1-2200.webp"
+  },
+  {
+    "project": "prada",
+    "source": "Ảnh cho Port\\Prada\\1788490647974_197653899118277285_3243444094112063512_34e0b34b1c26fa8a25ec77c847f4191b.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/prada-2-1281.webp"
+  },
+  {
+    "project": "prada",
+    "source": "Ảnh cho Port\\Prada\\1788489847068_197653899118277285_3243444094112063512_037e84ebeadab48e273cdb11ca79089f.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/prada-3-2200.webp"
+  },
+  {
+    "project": "tokyo",
+    "source": "Ảnh cho Port\\Tokyo\\1788490423501_197653899118277285_3243444094112063512_edd6d6e5a1be41608e533daa8634508c.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/tokyo-1-1281.webp"
+  },
+  {
+    "project": "tokyo",
+    "source": "Ảnh cho Port\\Tokyo\\1788490422520_197653899118277285_3243444094112063512_b5bbe8fa899f9ddb4b72eb7d5907119a.jpg",
+    "originalWidth": 1276,
+    "originalHeight": 956,
+    "phase": "setup",
+    "output": "/assets/projects/tokyo-2-1276.webp"
+  },
+  {
+    "project": "tokyo",
+    "source": "Ảnh cho Port\\Tokyo\\1788490423367_197653899118277285_3243444094112063512_2a92f7b5be7fe15afe945f69bcb66c2b.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "setup",
+    "output": "/assets/projects/tokyo-3-1281.webp"
+  },
+  {
+    "project": "tokyo",
+    "source": "Ảnh cho Port\\Tokyo\\1788490423431_197653899118277285_3243444094112063512_7164cc3453496724bf362611fc3c708a.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/tokyo-4-1281.webp"
+  },
+  {
+    "project": "keppel",
+    "source": "Ảnh cho Port\\keppel\\1788489857224_197653899118277285_3243444094112063512_eacfec5419a8f230545df19a6ff465c0.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/keppel-1-2200.webp"
+  },
+  {
+    "project": "keppel",
+    "source": "Ảnh cho Port\\keppel\\1788489863424_197653899118277285_3243444094112063512_903fb17097d41746f581e4beb423915a.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "setup",
+    "output": "/assets/projects/keppel-2-2200.webp"
+  },
+  {
+    "project": "keppel",
+    "source": "Ảnh cho Port\\keppel\\1788490318307_197653899118277285_3243444094112063512_b6d878a4d0a8d2c66cd43b6ee15e91d3.jpg",
+    "originalWidth": 1281,
+    "originalHeight": 961,
+    "phase": "final",
+    "output": "/assets/projects/keppel-3-1281.webp"
+  },
+  {
+    "project": "blum",
+    "source": "Ảnh cho Port\\Blum\\1723268418943_1368874726416720868_g7490010681962617066_6b7f309460e942f9b31eb23632e2a2b5.jpg",
+    "originalWidth": 2560,
+    "originalHeight": 1920,
+    "phase": "final",
+    "output": "/assets/projects/blum-1-2200.webp"
+  },
+  {
+    "project": "panasonic",
+    "source": "Ảnh cho Port\\panaa\\1782479384326_104757294367521647_g6528630951691554433_9b7ec2387460aa8a0e94e31ec8c238e2.jpg",
+    "originalWidth": 2568,
+    "originalHeight": 1926,
+    "phase": "final",
+    "output": "/assets/projects/panasonic-1-2200.webp"
+  },
+  {
+    "project": "panasonic",
+    "source": "Ảnh cho Port\\panaa\\1782027888494_1184932678028636010_g6528630951691554433_eb593ba6782a2e0bbf9de500e2493556.jpg",
+    "originalWidth": 1280,
+    "originalHeight": 960,
+    "phase": "setup",
+    "output": "/assets/projects/panasonic-2-1280.webp"
+  },
+  {
+    "project": "panasonic",
+    "source": "Ảnh cho Port\\panaa\\1781916640656_104757294367521647_g6528630951691554433_e3ef0b8c73c8b945e046874756b9b2a3.jpg",
+    "originalWidth": 10667,
+    "originalHeight": 6000,
+    "phase": "design",
+    "output": "/assets/projects/panasonic-3-2200.webp"
+  },
+  {
+    "project": "gamuda",
+    "source": "142238807_1053042375189884_3220844770795857878_n.jpg",
+    "originalWidth": 960,
+    "originalHeight": 960,
+    "phase": "final",
+    "output": "/assets/projects/gamuda-1-960.webp"
+  },
+  {
+    "project": "gamuda",
+    "source": "142598369_1053042201856568_8591023068802669407_n.jpg",
+    "originalWidth": 960,
+    "originalHeight": 960,
+    "phase": "final",
+    "output": "/assets/projects/gamuda-2-960.webp"
+  }
+]

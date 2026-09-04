@@ -1,23 +1,22 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { CaseStudy, caseLabels } from './CaseStudy';
+import { ProjectImage, projectMedia, phaseLabel } from './ProjectMedia';
 import {
   ArrowDown,
   ArrowUpRight,
   BriefcaseBusiness,
   CalendarDays,
-  ChevronDown,
   ExternalLink,
-  Linkedin,
   Mail,
   MapPin,
   Phone,
-  X,
 } from 'lucide-react';
 
 type Lang = 'en' | 'vi';
 type LocalText = { en: string; vi: string };
 type LocalList = { en: string[]; vi: string[] };
 
-type Project = {
+export type Project = {
   id: string;
   name: string;
   type: LocalText;
@@ -245,7 +244,39 @@ const medicalCases: MedicalCase[] = [
   },
 ];
 
-const featuredIds=['gamuda','decathlon','forbes','orchard','gladia','panasonic'];
+const featuredCases = [
+  {
+    id: 'capitaland', projectIds: ['lumi', 'sycamore', 'orchard'], imageId: 'lumi',
+    name: 'CapitaLand — Real Estate Events',
+    subtitle: lt('The Lumi · Sycamore · The Orchard Hill', 'The Lumi · Sycamore · The Orchard Hill'),
+    type: lt('2024 / REAL ESTATE EVENTS', '2024 / SỰ KIỆN BẤT ĐỘNG SẢN'),
+    role: lt('Event Coordinator', 'Điều phối sự kiện'),
+    purpose: lt('Three real-estate events, one continuous responsibility: move from overnight build-up to a guest-ready venue, live program and dismantling.', 'Ba sự kiện bất động sản với một mạch công việc xuyên suốt: từ thi công xuyên đêm đến sẵn sàng đón khách, vận hành chương trình và tháo dỡ.'),
+    challenge: lt('An overnight build window followed immediately by guest-facing operations.', 'Thi công gấp từ đêm đến sáng rồi chuyển ngay sang vận hành với khách mời.'),
+    solution: lt('Stay alongside the Account Manager, track priority items, coordinate backstage and route guests around the key moments.', 'Phối hợp sát Account Manager, bám hạng mục ưu tiên, điều phối backstage và phân luồng khách cho các key moment.'),
+    result: lt('Supported delivery across setup, live show and post-event dismantling.', 'Theo sát việc triển khai từ setup, live show đến tháo dỡ sau chương trình.'),
+  },
+  {
+    id: 'decathlon', projectIds: ['decathlon'], imageId: 'decathlon', name: 'Decathlon — Store Setup',
+    subtitle: lt('From an empty site to a completed retail space', 'Từ mặt bằng trống đến không gian bán lẻ hoàn thiện'),
+    type: lt('2022 / RETAIL SETUP', '2022 / THI CÔNG BÁN LẺ'),
+    role: lt('Project / Event Coordinator', 'Điều phối dự án / sự kiện'),
+    purpose: lt('Turn a retail site into a completed Decathlon store through coordinated contractor work, mall requirements and handover preparation.', 'Đưa mặt bằng thành cửa hàng Decathlon hoàn thiện thông qua điều phối nhà thầu, yêu cầu của mall và chuẩn bị bàn giao.'),
+    challenge: lt('Multiple contractors and mall stakeholders working within the same delivery schedule.', 'Nhiều nhà thầu và các bên liên quan của mall cùng làm việc theo một tiến độ bàn giao.'),
+    solution: lt('Track workstreams, align site access and resolve daily onsite issues through completion.', 'Bám từng hạng mục, thống nhất điều kiện thi công và xử lý phát sinh hằng ngày đến khi hoàn tất.'),
+    result: lt('Supported the site through completion and handover, building experience across a full retail delivery cycle.', 'Theo dự án đến hoàn thiện và bàn giao, tích lũy kinh nghiệm trong toàn bộ chu kỳ triển khai retail.'),
+  },
+  {
+    id: 'mocchau', projectIds: ['mocchau'], imageId: 'mocchau', name: 'Mộc Châu Creamery — Booth & Product Activation',
+    subtitle: lt('AEON Mall Tân Phú / Consumer product introduction', 'AEON Mall Tân Phú / Giới thiệu sản phẩm đến người tiêu dùng'),
+    type: lt('2026 / BOOTH & PRODUCT ACTIVATION', '2026 / BOOTH & GIỚI THIỆU SẢN PHẨM'),
+    role: lt('Event Coordinator', 'Điều phối sự kiện'),
+    purpose: lt('Bring the brand and its products into a public-facing mall activation, from booth preparation to onsite operation.', 'Đưa thương hiệu và sản phẩm đến khách tham quan tại mall, từ chuẩn bị booth đến vận hành onsite.'),
+    challenge: lt('Align booth readiness, vendors and public interaction with mall operating requirements.', 'Đồng bộ booth, vendor và hoạt động với khách theo yêu cầu vận hành của mall.'),
+    solution: lt('Follow preparation timing, coordinate vendors and support onsite adjustments during the product introduction.', 'Bám thời gian chuẩn bị, điều phối vendor và hỗ trợ điều chỉnh onsite khi giới thiệu sản phẩm.'),
+    result: lt('Supported an organized opening and continued onsite operation during the activation.', 'Hỗ trợ mở cửa có tổ chức và duy trì vận hành onsite trong suốt activation.'),
+  },
+];
 const allProjects=timeline.flatMap((group)=>group.projects);
 const capabilities={
   en:['Project Coordination','Event Execution','Client & Stakeholder Communication','Vendor & Contractor Management','Venue / Mall Coordination','Backstage & Guest Flow','Expert & Speaker Coordination','POSM Briefing','Event Documentation & Reporting','Onsite Problem Solving'],
@@ -259,19 +290,52 @@ const ui={
 
 export default function PortfolioApp(){
   const[lang,setLang]=useState<Lang>('en');
-  const[openProject,setOpenProject]=useState<string|null>('gamuda');
+  const[activeIds,setActiveIds]=useState<string[]|null>(null);
+  useEffect(()=>{document.documentElement.lang=lang;},[lang]);
   const text=ui[lang]; const t=(value:LocalText)=>value[lang]; const list=(value:LocalList)=>value[lang];
-  const featured=useMemo(()=>featuredIds.map((id)=>allProjects.find((p)=>p.id===id)).filter(Boolean) as Project[],[]);
-  const openFromFeatured=(project:Project)=>{setOpenProject(project.id);requestAnimationFrame(()=>document.getElementById(`project-${project.id}`)?.scrollIntoView({behavior:'smooth',block:'center'}));};
   return <main>
     <nav className="nav"><a className="brand" href="#top">THỊNH / 2026</a><div className="nav-right"><div className="nav-links"><a href="#timeline">{text.navTimeline}</a><a href="#stories">{text.navStories}</a><a href="#medical">{text.navMedical}</a><a href="#contact">{text.navContact}</a></div><div className="lang-toggle"><button className={lang==='en'?'active':''} onClick={()=>setLang('en')}>EN</button><span>/</span><button className={lang==='vi'?'active':''} onClick={()=>setLang('vi')}>VI</button></div></div></nav>
     <section id="top" className="hero section-shell"><div className="eyebrow"><span className="dot"/> {text.eyebrow}</div><div className="hero-grid"><h1>{text.heroTitle[0]}<br/>{text.heroTitle[1]}<br/><em>{text.heroTitle[2]}</em></h1><div className="hero-side"><p className="hero-name">ĐINH VŨ TIẾN THỊNH</p><p>{text.heroFields}</p><p className="muted">{text.heroDesc}</p><a className="cta" href="#timeline">{text.explore} <ArrowDown size={18}/></a></div></div><div className="hero-strip"><span>{text.years}</span><span>{text.industries}</span><span>{text.focus}</span></div></section>
     <section className="intro section-shell"><div className="section-label">{text.profileLabel}</div><div className="intro-grid"><h2>{text.profileTitle.map((line)=><span key={line}>{line}<br/></span>)}</h2><div><p className="lead">{text.profileDesc}</p><div className="process">{text.process.map((item,index)=><span key={item}>{item}{index<text.process.length-1&&<b>→</b>}</span>)}</div></div></div></section>
-    <section id="timeline" className="timeline section-shell"><div className="section-label">{text.timelineLabel}</div><div className="timeline-head"><h2>2020 → 2026</h2><p>{text.timelineDesc}</p></div><div className="timeline-list">{timeline.map((group)=><article className="year-block" key={group.year}><div className="year-rail"><span className="year">{group.year}</span><span className="rail-dot"/></div><div className="year-content"><div className="company"><BriefcaseBusiness size={16}/> {group.company}</div>{group.projects.map((project,index)=>{const isOpen=openProject===project.id;return <div className={`project-wrap ${isOpen?'is-open':''}`} id={`project-${project.id}`} key={project.id}><button className="project" onClick={()=>setOpenProject((current)=>current===project.id?null:project.id)} aria-expanded={isOpen}><div className="project-num">{String(index+1).padStart(2,'0')}</div><div className="project-main"><div className="project-meta"><span>{t(project.type)}</span><span>{t(project.role)}</span></div><h3>{project.name}</h3><p>{t(project.detail)}</p></div>{project.image?<img className="project-thumb" src={project.image} alt=""/>:<div className="project-placeholder">{text.noPhoto}</div>}{isOpen?<X className="project-arrow" size={22}/>:<ChevronDown className="project-arrow" size={22}/>}</button>{isOpen&&<div className="project-expanded"><div className="project-visual">{project.gallery?<div className="story-gallery">{project.gallery.map((image,i)=><img src={image} alt={`${project.name} ${i+1}`} key={image}/>)}</div>:project.image?<img className="project-hero-image" src={project.image} alt={project.name}/>:<div className="story-only-card"><span>PROJECT STORY</span><strong>{project.name}</strong></div>}</div><div className="project-detail"><div><span className="detail-label">{text.projectStory}</span><p className="story-copy">{t(project.story)}</p></div><div className="detail-two-col"><div><span className="detail-label">{text.myRole}</span><p>{t(project.role)}</p></div><div><span className="detail-label">{text.outcome}</span><p>{t(project.outcome)}</p></div></div><div><span className="detail-label">{text.handled}</span><ul>{list(project.handled).map((item)=><li key={item}>{item}</li>)}</ul></div><div className="flow-box"><span className="detail-label">{text.flow}</span><p>{t(project.flow)}</p></div>{project.externalLink&&project.externalLabel&&<a className="external-link" href={project.externalLink} target="_blank" rel="noreferrer">{t(project.externalLabel)} <ExternalLink size={15}/></a>}</div></div>}</div>})}</div></article>)}</div></section>
-    <section className="featured section-shell" id="stories"><div className="section-label">{text.featuredLabel}</div><div className="featured-intro"><h2>{text.featuredTitle.map((line)=><span key={line}>{line}<br/></span>)}</h2><p>{text.featuredDesc}</p></div><div className="case-grid">{featured.map((project,index)=><article className="case-card" key={project.id}><button className="case-button" onClick={()=>openFromFeatured(project)}><div className="case-image-wrap"><img src={project.image} alt={project.name}/><span className="case-index">0{index+1}</span></div><div className="case-meta"><span>{t(project.type)}</span><span>{t(project.role)}</span></div><h3>{project.name}</h3><p>{t(project.story)}</p><div className="case-link">{text.viewStory} <ArrowUpRight size={18}/></div></button></article>)}</div></section>
-    <section id="medical" className="medical section-shell"><div className="section-label">{text.medicalLabel}</div><div className="medical-head"><h2>{text.medicalTitle.map((line)=><span key={line}>{line}<br/></span>)}</h2><p>{text.medicalDesc}</p></div><div className="medical-grid">{medicalCases.map((item)=><article className={`medical-card ${item.image?'':'medical-card-metric'}`} key={item.id}>{item.image?<div className="medical-image-wrap"><img src={item.image} alt={t(item.name)}/></div>:<div className="metric-visual"><span>ONLINE CME</span><strong>1,000+</strong><small>HCPs</small></div>}<div className="medical-body"><div className="medical-date">{item.date}</div><div className="medical-format">{t(item.format)}</div><h3>{t(item.name)}</h3>{item.metric&&<div className="medical-metric">{t(item.metric)}</div>}<p className="medical-story">{t(item.story)}</p><div className="medical-role">{text.medicalRole}</div><ul>{list(item.handled).map((point)=><li key={point}>{point}</li>)}</ul><div className="medical-flow"><span>{text.flow}</span><p>{t(item.flow)}</p></div>{item.link&&item.linkLabel&&<a href={item.link} target="_blank" rel="noreferrer" className="external-link">{t(item.linkLabel)} <ExternalLink size={15}/></a>}</div></article>)}</div></section>
+    <section id="timeline" className="timeline section-shell">
+      <div className="section-label">{text.timelineLabel}</div><div className="timeline-head"><h2>2020 → 2026</h2><p>{text.timelineDesc}</p></div>
+      <div className="timeline-list">{timeline.map(group => <article className="year-block" key={group.year}>
+        <div className="year-rail"><span className="year">{group.year}</span><span className="rail-dot"/></div>
+        <div className="year-content"><div className="company"><BriefcaseBusiness size={16}/> {group.company}</div>
+          {group.projects.map((project,index) => <div className="project-wrap" id={'project-'+project.id} key={project.id}>
+            <button type="button" className="project" onClick={()=>setActiveIds([project.id])} aria-haspopup="dialog">
+              <span className="project-num">{String(index+1).padStart(2,'0')}</span>
+              <div className="project-main"><div className="project-meta"><span>{t(project.type)}</span><span>{t(project.role)}</span></div><h3>{project.name}</h3><p>{t(project.detail)}</p></div>
+              <ProjectImage projectId={project.id} lang={lang} className="project-thumb" sizes="(max-width: 760px) 70vw, 178px"/>
+              <ArrowUpRight className="project-arrow" size={24}/>
+            </button>
+          </div>)}
+        </div>
+      </article>)}</div>
+    </section>
+    <section className="featured section-shell" id="stories">
+      <div className="section-label">{text.featuredLabel}</div>
+      <div className="featured-intro"><h2>{text.featuredTitle.map(line=><span key={line}>{line}<br/></span>)}</h2><p>{lang === 'en' ? 'Three selected cases across real estate, retail and product activation. See the build-up, the details and the work behind delivery.' : 'Ba case tiêu biểu trong bất động sản, retail và giới thiệu sản phẩm. Xem quá trình thi công, các chi tiết và công việc phía sau mỗi lần bàn giao.'}</p></div>
+      <div className="case-grid">{featuredCases.map((item,index)=><article className="case-card" key={item.id} data-featured-case={item.id}>
+        <div className="featured-visual">
+          <button type="button" className="case-cover-button" onClick={()=>setActiveIds(item.projectIds)} aria-haspopup="dialog" aria-label={text.viewStory+': '+item.name}>
+            <div className="case-image-wrap"><ProjectImage projectId={item.imageId} lang={lang} sizes="(max-width: 760px) 90vw, 43vw"/><span className="case-index">0{index+1}</span><span className="cover-open"><ArrowUpRight size={24}/></span></div>
+          </button>
+          <div className="cover-caption"><span>{phaseLabel(projectMedia[item.imageId][0], lang)}</span><p>{projectMedia[item.imageId][0].caption[lang]}</p></div>
+          {item.id==='capitaland'&&<div className="featured-events"><span>The Lumi</span><span>Sycamore</span><span>The Orchard Hill</span></div>}
+        </div>
+        <div className="featured-copy"><div className="case-meta"><span>{t(item.type)}</span></div><h3>{item.name}</h3><p className="featured-subtitle">{t(item.subtitle)}</p>
+          <div className="featured-role"><span>{caseLabels[lang].role}</span><strong>{t(item.role)}</strong></div>
+          <p className="featured-purpose">{t(item.purpose)}</p>
+          <dl className="featured-facts">{(['challenge','solution','result'] as const).map(field=><div key={field}><dt>{caseLabels[lang][field]}</dt><dd>{t(item[field])}</dd></div>)}</dl>
+          <button type="button" className="case-link" onClick={()=>setActiveIds(item.projectIds)} aria-haspopup="dialog">{text.viewStory} <ArrowUpRight size={18}/></button>
+        </div>
+      </article>)}</div>
+    </section>
+    <section id="medical" className="medical section-shell"><div className="section-label">{text.medicalLabel}</div><div className="medical-head"><h2>{text.medicalTitle.map((line)=><span key={line}>{line}<br/></span>)}</h2><p>{text.medicalDesc}</p></div><div className="medical-grid">{medicalCases.map((item)=><article className={`medical-card ${item.image?'':'medical-card-metric'}`} key={item.id}>{item.image?<div className="medical-image-wrap"><ProjectImage projectId={item.id} lang={lang} sizes="240px"/></div>:<div className="metric-visual"><span>ONLINE CME</span><strong>1,000+</strong><small>HCPs</small></div>}<div className="medical-body"><div className="medical-date">{item.date}</div><div className="medical-format">{t(item.format)}</div><h3>{t(item.name)}</h3>{item.metric&&<div className="medical-metric">{t(item.metric)}</div>}<p className="medical-story">{t(item.story)}</p><div className="medical-role">{text.medicalRole}</div><ul>{list(item.handled).map((point)=><li key={point}>{point}</li>)}</ul><div className="medical-flow"><span>{text.flow}</span><p>{t(item.flow)}</p></div>{item.link&&item.linkLabel&&<a href={item.link} target="_blank" rel="noreferrer" className="external-link">{t(item.linkLabel)} <ExternalLink size={15}/></a>}</div></article>)}</div></section>
     <section className="capabilities section-shell"><div className="section-label">{text.capabilitiesLabel}</div><div className="cap-grid">{capabilities[lang].map((cap,index)=><div className="cap" key={cap}><span>{String(index+1).padStart(2,'0')}</span><p>{cap}</p></div>)}</div></section>
-    <section id="contact" className="contact section-shell"><div className="section-label">{text.contactLabel}</div><h2>{text.contactTitle[0]}<br/><em>{text.contactTitle[1]}</em></h2><div className="contact-row"><span><CalendarDays size={16}/> {text.availability}</span><span><MapPin size={16}/> {text.location}</span></div><div className="contact-links"><a href="tel:+84334012599"><Phone size={18}/><span>0334 012 599</span></a><a href="mailto:davidthinh3.work@gmail.com"><Mail size={18}/><span>davidthinh3.work@gmail.com</span></a><a href="https://www.linkedin.com/in/david-thinh-95472a387" target="_blank" rel="noreferrer"><Linkedin size={18}/><span>LinkedIn</span></a></div></section>
+    <section id="contact" className="contact section-shell"><div className="section-label">{text.contactLabel}</div><h2>{text.contactTitle[0]}<br/><em>{text.contactTitle[1]}</em></h2><div className="contact-row"><span><CalendarDays size={16}/> {text.availability}</span><span><MapPin size={16}/> {text.location}</span></div><div className="contact-links"><a href="tel:+84334012599"><Phone size={18}/><span>0334 012 599</span></a><a href="mailto:davidthinh3.work@gmail.com"><Mail size={18}/><span>davidthinh3.work@gmail.com</span></a><a href="https://www.linkedin.com/in/david-thinh-95472a387" target="_blank" rel="noreferrer"><ExternalLink size={18}/><span>LinkedIn</span></a></div></section>
     <footer className="footer section-shell"><span>© 2026 ĐINH VŨ TIẾN THỊNH</span><a href="#top">{text.backTop}</a></footer>
+    {activeIds && <CaseStudy key={activeIds.join("-")} projects={activeIds.map(id=>allProjects.find(p=>p.id===id)!)} lang={lang} onClose={()=>setActiveIds(null)}/>}
   </main>;
 }

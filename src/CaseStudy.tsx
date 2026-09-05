@@ -7,8 +7,8 @@ import caseData from './case-copy.json';
 type CaseCopy = { purpose: string; challenge: string; solution: string; result: string };
 export const caseCopy = caseData as Record<string, Record<Lang, CaseCopy>>;
 export const caseLabels = {
-  en: { purpose: 'PROJECT PURPOSE', role: 'MY ROLE', challenge: 'CHALLENGE', solution: 'HOW I HANDLED IT', result: 'RESULT' },
-  vi: { purpose: 'MỤC ĐÍCH DỰ ÁN', role: 'VAI TRÒ CỦA TÔI', challenge: 'THỬ THÁCH', solution: 'CÁCH TÔI XỬ LÝ', result: 'KẾT QUẢ' },
+  en: { context: 'CONTEXT & OBJECTIVE', purpose: 'PROJECT PURPOSE', role: 'MY ROLE', effort: 'WHAT I WORKED THROUGH', challenge: 'CHALLENGE', solution: 'HOW I HANDLED IT', result: 'RESULT', learning: 'WHAT I TOOK FORWARD' },
+  vi: { context: 'BỐI CẢNH & MỤC TIÊU', purpose: 'MỤC ĐÍCH DỰ ÁN', role: 'VAI TRÒ CỦA TÔI', effort: 'NHỮNG VIỆC TÔI ĐÃ NỖ LỰC THỰC HIỆN', challenge: 'THỬ THÁCH', solution: 'CÁCH TÔI XỬ LÝ', result: 'KẾT QUẢ', learning: 'KINH NGHIỆM TÔI TÍCH LŨY' },
 };
 
 export function CaseStudy({ projects, lang, onClose }: { projects: Project[]; lang: Lang; onClose: () => void }) {
@@ -46,11 +46,14 @@ export function CaseStudy({ projects, lang, onClose }: { projects: Project[]; la
         <div className="case-dialog-media"><ProjectGallery key={project.id} projectId={project.id} name={project.name} lang={lang} /></div>
         <div className="case-dialog-copy"><p className="section-label">{lang === 'en' ? 'PROJECT CASE STUDY' : 'CÂU CHUYỆN DỰ ÁN'}</p>
           <h2 id="case-title">{project.name}</h2>
+          <section className="case-context"><h3>{labels.context}</h3><p>{project.story[lang]}</p></section>
           <section className="case-role"><h3>{labels.role}</h3><p>{project.role[lang]}</p></section>
           {(['purpose', 'challenge', 'solution', 'result'] as const).map(field => <section className={`case-copy-block case-copy-${field}`} key={field}>
             <h3>{labels[field]}</h3><p>{copy[field]}</p>
           </section>)}
+          <section className="case-effort"><h3>{labels.effort}</h3><ul>{project.handled[lang].map(point => <li key={point}>{point}</li>)}</ul></section>
           <div className="case-workflow"><h3>{lang === 'en' ? 'DELIVERY FLOW' : 'QUY TRÌNH TRIỂN KHAI'}</h3><p>{project.flow[lang]}</p></div>
+          <section className="case-learning"><h3>{labels.learning}</h3><p>{project.outcome[lang]}</p></section>
         </div>
       </div>
     </div>

@@ -52,10 +52,18 @@ section[id],.project-wrap{scroll-margin-top:84px}
 .case-dialog-copy p{font-size:14px;line-height:1.75;margin:0;color:#554f44}
 .case-role{padding-bottom:22px}
 .case-role p{color:#211f1a;font-weight:600}
+.case-context{padding:0 0 22px}
+.case-context p{font-size:15px;line-height:1.8;color:#3f3a32}
 .case-copy-block{padding:21px 0;border-top:1px solid #d9d0c3}
 .case-copy-result{padding:20px;background:#e5dfd1;border-radius:14px;border-top:0;margin-top:4px}
-.case-workflow{padding:22px 0 0}
+.case-effort{padding:24px 0;border-top:1px solid #d9d0c3}
+.case-effort ul{margin:0;padding:0;list-style:none;display:grid;gap:11px}
+.case-effort li{position:relative;padding-left:24px;color:#554f44;font-size:14px;line-height:1.7}
+.case-effort li::before{content:'✓';position:absolute;left:0;top:0;color:#806849;font-weight:700}
+.case-workflow{padding:22px 0}
 .case-workflow p{font-size:12px;font-weight:600}
+.case-learning{padding:20px;background:#ded4c4;border-radius:14px}
+.case-learning p{color:#3f392f}
 .project-gallery{position:sticky;top:88px}
 .gallery-figure{margin:0}
 .gallery-stage{display:flex;align-items:center;justify-content:center;min-height:200px;background:#e5dfd4;border-radius:18px;overflow:hidden;aspect-ratio:4/3}
@@ -68,7 +76,8 @@ section[id],.project-wrap{scroll-margin-top:84px}
 .gallery-thumbnails button{padding:3px;border:2px solid transparent;border-radius:10px;background:#e6dfd2;cursor:pointer;overflow:hidden;color:#544a3c;min-height:60px}
 .gallery-thumbnails button[aria-pressed=true]{border-color:#8b633c;background:#d7c4aa}
 .gallery-thumbnails img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:5px}
-.gallery-thumbnails span{display:block;font-size:8px;line-height:1.4;padding:6px 2px;letter-spacing:.02em;overflow-wrap:anywhere}
+.gallery-thumbnails span{display:flex;gap:5px;align-items:baseline;font-size:8px;line-height:1.4;padding:6px 2px;letter-spacing:.02em;overflow-wrap:anywhere}
+.gallery-thumbnails span b{color:#806849;font-size:8px}
 .original-image{display:inline-block;padding:15px 0;font-size:11px;text-decoration:underline;text-underline-offset:4px;color:#756046}
 @media(min-width:761px){.featured-visual{align-self:start;position:sticky;top:94px}}
 @media(max-width:1050px){.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(56px,11vw,108px)}.featured-facts>div{grid-template-columns:1fr;gap:7px}}

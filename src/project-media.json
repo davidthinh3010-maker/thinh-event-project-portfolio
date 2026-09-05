@@ -1,10 +1,10 @@
 {
   "oxford": [
     {
-      "src": "/assets/projects/oxford-1-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/oxford-1-480.webp 480w, /assets/projects/oxford-1-960.webp 960w, /assets/projects/oxford-1-1600.webp 1600w, /assets/projects/oxford-1-1920.webp 1920w",
+      "src": "/assets/projects/oxford-1-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/oxford-1-480.webp 480w, /assets/projects/oxford-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/oxford-1-480.webp",
       "phase": "artwork",
       "caption": {
@@ -14,10 +14,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/oxford-2-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/oxford-2-480.webp 480w, /assets/projects/oxford-2-960.webp 960w, /assets/projects/oxford-2-1600.webp 1600w, /assets/projects/oxford-2-1920.webp 1920w",
+      "src": "/assets/projects/oxford-2-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/oxford-2-480.webp 480w, /assets/projects/oxford-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/oxford-2-480.webp",
       "phase": "artwork",
       "caption": {
@@ -29,10 +29,10 @@
   ],
   "nf1": [
     {
-      "src": "/assets/projects/nf1-1-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/nf1-1-480.webp 480w, /assets/projects/nf1-1-960.webp 960w, /assets/projects/nf1-1-1600.webp 1600w, /assets/projects/nf1-1-1920.webp 1920w",
+      "src": "/assets/projects/nf1-1-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/nf1-1-480.webp 480w, /assets/projects/nf1-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/nf1-1-480.webp",
       "phase": "artwork",
       "caption": {
@@ -44,10 +44,10 @@
   ],
   "lumi": [
     {
-      "src": "/assets/projects/lumi-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/lumi-1-480.webp 480w, /assets/projects/lumi-1-960.webp 960w, /assets/projects/lumi-1-1600.webp 1600w, /assets/projects/lumi-1-2200.webp 2200w",
+      "src": "/assets/projects/lumi-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/lumi-1-480.webp 480w, /assets/projects/lumi-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/lumi-1-480.webp",
       "phase": "final",
       "caption": {
@@ -57,10 +57,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/lumi-2-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/lumi-2-480.webp 480w, /assets/projects/lumi-2-960.webp 960w, /assets/projects/lumi-2-1600.webp 1600w, /assets/projects/lumi-2-2200.webp 2200w",
+      "src": "/assets/projects/lumi-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/lumi-2-480.webp 480w, /assets/projects/lumi-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/lumi-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -70,10 +70,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/lumi-3-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/lumi-3-480.webp 480w, /assets/projects/lumi-3-960.webp 960w, /assets/projects/lumi-3-1600.webp 1600w, /assets/projects/lumi-3-2200.webp 2200w",
+      "src": "/assets/projects/lumi-3-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/lumi-3-480.webp 480w, /assets/projects/lumi-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/lumi-3-480.webp",
       "phase": "setup",
       "caption": {
@@ -83,10 +83,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/lumi-4-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/lumi-4-480.webp 480w, /assets/projects/lumi-4-960.webp 960w, /assets/projects/lumi-4-1600.webp 1600w, /assets/projects/lumi-4-2200.webp 2200w",
+      "src": "/assets/projects/lumi-4-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/lumi-4-480.webp 480w, /assets/projects/lumi-4-1600.webp 1600w",
       "thumbnail": "/assets/projects/lumi-4-480.webp",
       "phase": "final",
       "caption": {
@@ -98,10 +98,10 @@
   ],
   "sycamore": [
     {
-      "src": "/assets/projects/sycamore-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/sycamore-1-480.webp 480w, /assets/projects/sycamore-1-960.webp 960w, /assets/projects/sycamore-1-1600.webp 1600w, /assets/projects/sycamore-1-2200.webp 2200w",
+      "src": "/assets/projects/sycamore-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/sycamore-1-480.webp 480w, /assets/projects/sycamore-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/sycamore-1-480.webp",
       "phase": "final",
       "caption": {
@@ -111,10 +111,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/sycamore-2-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/sycamore-2-480.webp 480w, /assets/projects/sycamore-2-960.webp 960w, /assets/projects/sycamore-2-1600.webp 1600w, /assets/projects/sycamore-2-2200.webp 2200w",
+      "src": "/assets/projects/sycamore-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/sycamore-2-480.webp 480w, /assets/projects/sycamore-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/sycamore-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -124,10 +124,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/sycamore-3-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/sycamore-3-480.webp 480w, /assets/projects/sycamore-3-960.webp 960w, /assets/projects/sycamore-3-1600.webp 1600w, /assets/projects/sycamore-3-2200.webp 2200w",
+      "src": "/assets/projects/sycamore-3-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/sycamore-3-480.webp 480w, /assets/projects/sycamore-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/sycamore-3-480.webp",
       "phase": "setup",
       "caption": {
@@ -137,10 +137,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/sycamore-4-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/sycamore-4-480.webp 480w, /assets/projects/sycamore-4-960.webp 960w, /assets/projects/sycamore-4-1600.webp 1600w, /assets/projects/sycamore-4-2200.webp 2200w",
+      "src": "/assets/projects/sycamore-4-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/sycamore-4-480.webp 480w, /assets/projects/sycamore-4-1600.webp 1600w",
       "thumbnail": "/assets/projects/sycamore-4-480.webp",
       "phase": "setup",
       "caption": {
@@ -152,10 +152,10 @@
   ],
   "orchard": [
     {
-      "src": "/assets/projects/orchard-1-2200.webp",
-      "width": 2200,
-      "height": 1234,
-      "srcSet": "/assets/projects/orchard-1-480.webp 480w, /assets/projects/orchard-1-960.webp 960w, /assets/projects/orchard-1-1600.webp 1600w, /assets/projects/orchard-1-2200.webp 2200w",
+      "src": "/assets/projects/orchard-1-1600.webp",
+      "width": 1600,
+      "height": 897,
+      "srcSet": "/assets/projects/orchard-1-480.webp 480w, /assets/projects/orchard-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/orchard-1-480.webp",
       "phase": "design",
       "caption": {
@@ -165,10 +165,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/orchard-2-2200.webp",
-      "width": 2200,
-      "height": 1238,
-      "srcSet": "/assets/projects/orchard-2-480.webp 480w, /assets/projects/orchard-2-960.webp 960w, /assets/projects/orchard-2-1600.webp 1600w, /assets/projects/orchard-2-2200.webp 2200w",
+      "src": "/assets/projects/orchard-2-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/orchard-2-480.webp 480w, /assets/projects/orchard-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/orchard-2-480.webp",
       "phase": "design",
       "caption": {
@@ -183,7 +183,7 @@
       "src": "/assets/projects/decathlon-1-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/decathlon-1-480.webp 480w, /assets/projects/decathlon-1-960.webp 960w, /assets/projects/decathlon-1-1281.webp 1281w",
+      "srcSet": "/assets/projects/decathlon-1-480.webp 480w, /assets/projects/decathlon-1-1281.webp 1281w",
       "thumbnail": "/assets/projects/decathlon-1-480.webp",
       "phase": "final",
       "caption": {
@@ -193,10 +193,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/decathlon-2-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/decathlon-2-480.webp 480w, /assets/projects/decathlon-2-960.webp 960w, /assets/projects/decathlon-2-1600.webp 1600w, /assets/projects/decathlon-2-2200.webp 2200w",
+      "src": "/assets/projects/decathlon-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/decathlon-2-480.webp 480w, /assets/projects/decathlon-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/decathlon-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -209,7 +209,7 @@
       "src": "/assets/projects/decathlon-3-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/decathlon-3-480.webp 480w, /assets/projects/decathlon-3-960.webp 960w, /assets/projects/decathlon-3-1281.webp 1281w",
+      "srcSet": "/assets/projects/decathlon-3-480.webp 480w, /assets/projects/decathlon-3-1281.webp 1281w",
       "thumbnail": "/assets/projects/decathlon-3-480.webp",
       "phase": "setup",
       "caption": {
@@ -219,10 +219,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/decathlon-4-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/decathlon-4-480.webp 480w, /assets/projects/decathlon-4-960.webp 960w, /assets/projects/decathlon-4-1600.webp 1600w, /assets/projects/decathlon-4-2200.webp 2200w",
+      "src": "/assets/projects/decathlon-4-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/decathlon-4-480.webp 480w, /assets/projects/decathlon-4-1600.webp 1600w",
       "thumbnail": "/assets/projects/decathlon-4-480.webp",
       "phase": "final",
       "caption": {
@@ -235,7 +235,7 @@
       "src": "/assets/projects/decathlon-5-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/decathlon-5-480.webp 480w, /assets/projects/decathlon-5-960.webp 960w, /assets/projects/decathlon-5-1281.webp 1281w",
+      "srcSet": "/assets/projects/decathlon-5-480.webp 480w, /assets/projects/decathlon-5-1281.webp 1281w",
       "thumbnail": "/assets/projects/decathlon-5-480.webp",
       "phase": "final",
       "caption": {
@@ -260,10 +260,10 @@
   ],
   "mocchau": [
     {
-      "src": "/assets/projects/mocchau-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/mocchau-1-480.webp 480w, /assets/projects/mocchau-1-960.webp 960w, /assets/projects/mocchau-1-1600.webp 1600w, /assets/projects/mocchau-1-2200.webp 2200w",
+      "src": "/assets/projects/mocchau-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/mocchau-1-480.webp 480w, /assets/projects/mocchau-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/mocchau-1-480.webp",
       "phase": "finishing",
       "caption": {
@@ -273,10 +273,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/mocchau-2-1920.webp",
-      "width": 1920,
-      "height": 2560,
-      "srcSet": "/assets/projects/mocchau-2-480.webp 480w, /assets/projects/mocchau-2-960.webp 960w, /assets/projects/mocchau-2-1600.webp 1600w, /assets/projects/mocchau-2-1920.webp 1920w",
+      "src": "/assets/projects/mocchau-2-1600.webp",
+      "width": 1600,
+      "height": 2133,
+      "srcSet": "/assets/projects/mocchau-2-480.webp 480w, /assets/projects/mocchau-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/mocchau-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -286,10 +286,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/mocchau-3-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/mocchau-3-480.webp 480w, /assets/projects/mocchau-3-960.webp 960w, /assets/projects/mocchau-3-1600.webp 1600w, /assets/projects/mocchau-3-2200.webp 2200w",
+      "src": "/assets/projects/mocchau-3-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/mocchau-3-480.webp 480w, /assets/projects/mocchau-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/mocchau-3-480.webp",
       "phase": "finishing",
       "caption": {
@@ -302,7 +302,7 @@
       "src": "/assets/projects/mocchau-4-1266.webp",
       "width": 1266,
       "height": 569,
-      "srcSet": "/assets/projects/mocchau-4-480.webp 480w, /assets/projects/mocchau-4-960.webp 960w, /assets/projects/mocchau-4-1266.webp 1266w",
+      "srcSet": "/assets/projects/mocchau-4-480.webp 480w, /assets/projects/mocchau-4-1266.webp 1266w",
       "thumbnail": "/assets/projects/mocchau-4-480.webp",
       "phase": "overview",
       "caption": {
@@ -315,7 +315,7 @@
       "src": "/assets/projects/mocchau-5-1288.webp",
       "width": 1288,
       "height": 727,
-      "srcSet": "/assets/projects/mocchau-5-480.webp 480w, /assets/projects/mocchau-5-960.webp 960w, /assets/projects/mocchau-5-1288.webp 1288w",
+      "srcSet": "/assets/projects/mocchau-5-480.webp 480w, /assets/projects/mocchau-5-1288.webp 1288w",
       "thumbnail": "/assets/projects/mocchau-5-480.webp",
       "phase": "design",
       "caption": {
@@ -330,7 +330,7 @@
       "src": "/assets/projects/forbes-1-1280.webp",
       "width": 1280,
       "height": 800,
-      "srcSet": "/assets/projects/forbes-1-480.webp 480w, /assets/projects/forbes-1-960.webp 960w, /assets/projects/forbes-1-1280.webp 1280w",
+      "srcSet": "/assets/projects/forbes-1-480.webp 480w, /assets/projects/forbes-1-1280.webp 1280w",
       "thumbnail": "/assets/projects/forbes-1-480.webp",
       "phase": "final",
       "caption": {
@@ -340,10 +340,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/forbes-2-2048.webp",
-      "width": 2048,
-      "height": 1536,
-      "srcSet": "/assets/projects/forbes-2-480.webp 480w, /assets/projects/forbes-2-960.webp 960w, /assets/projects/forbes-2-1600.webp 1600w, /assets/projects/forbes-2-2048.webp 2048w",
+      "src": "/assets/projects/forbes-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/forbes-2-480.webp 480w, /assets/projects/forbes-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/forbes-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -356,7 +356,7 @@
       "src": "/assets/projects/forbes-3-1280.webp",
       "width": 1280,
       "height": 800,
-      "srcSet": "/assets/projects/forbes-3-480.webp 480w, /assets/projects/forbes-3-960.webp 960w, /assets/projects/forbes-3-1280.webp 1280w",
+      "srcSet": "/assets/projects/forbes-3-480.webp 480w, /assets/projects/forbes-3-1280.webp 1280w",
       "thumbnail": "/assets/projects/forbes-3-480.webp",
       "phase": "live",
       "caption": {
@@ -368,10 +368,10 @@
   ],
   "gladia": [
     {
-      "src": "/assets/projects/gladia-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/gladia-1-480.webp 480w, /assets/projects/gladia-1-960.webp 960w, /assets/projects/gladia-1-1600.webp 1600w, /assets/projects/gladia-1-2200.webp 2200w",
+      "src": "/assets/projects/gladia-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/gladia-1-480.webp 480w, /assets/projects/gladia-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/gladia-1-480.webp",
       "phase": "final",
       "caption": {
@@ -381,10 +381,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/gladia-2-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/gladia-2-480.webp 480w, /assets/projects/gladia-2-960.webp 960w, /assets/projects/gladia-2-1600.webp 1600w, /assets/projects/gladia-2-2200.webp 2200w",
+      "src": "/assets/projects/gladia-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/gladia-2-480.webp 480w, /assets/projects/gladia-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/gladia-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -394,10 +394,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/gladia-3-1920.webp",
-      "width": 1920,
-      "height": 2560,
-      "srcSet": "/assets/projects/gladia-3-480.webp 480w, /assets/projects/gladia-3-960.webp 960w, /assets/projects/gladia-3-1600.webp 1600w, /assets/projects/gladia-3-1920.webp 1920w",
+      "src": "/assets/projects/gladia-3-1600.webp",
+      "width": 1600,
+      "height": 2133,
+      "srcSet": "/assets/projects/gladia-3-480.webp 480w, /assets/projects/gladia-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/gladia-3-480.webp",
       "phase": "setup",
       "caption": {
@@ -409,10 +409,10 @@
   ],
   "prada": [
     {
-      "src": "/assets/projects/prada-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/prada-1-480.webp 480w, /assets/projects/prada-1-960.webp 960w, /assets/projects/prada-1-1600.webp 1600w, /assets/projects/prada-1-2200.webp 2200w",
+      "src": "/assets/projects/prada-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/prada-1-480.webp 480w, /assets/projects/prada-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/prada-1-480.webp",
       "phase": "final",
       "caption": {
@@ -425,7 +425,7 @@
       "src": "/assets/projects/prada-2-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/prada-2-480.webp 480w, /assets/projects/prada-2-960.webp 960w, /assets/projects/prada-2-1281.webp 1281w",
+      "srcSet": "/assets/projects/prada-2-480.webp 480w, /assets/projects/prada-2-1281.webp 1281w",
       "thumbnail": "/assets/projects/prada-2-480.webp",
       "phase": "final",
       "caption": {
@@ -435,10 +435,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/prada-3-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/prada-3-480.webp 480w, /assets/projects/prada-3-960.webp 960w, /assets/projects/prada-3-1600.webp 1600w, /assets/projects/prada-3-2200.webp 2200w",
+      "src": "/assets/projects/prada-3-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/prada-3-480.webp 480w, /assets/projects/prada-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/prada-3-480.webp",
       "phase": "final",
       "caption": {
@@ -453,7 +453,7 @@
       "src": "/assets/projects/tokyo-1-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-1-480.webp 480w, /assets/projects/tokyo-1-960.webp 960w, /assets/projects/tokyo-1-1281.webp 1281w",
+      "srcSet": "/assets/projects/tokyo-1-480.webp 480w, /assets/projects/tokyo-1-1281.webp 1281w",
       "thumbnail": "/assets/projects/tokyo-1-480.webp",
       "phase": "final",
       "caption": {
@@ -466,7 +466,7 @@
       "src": "/assets/projects/tokyo-2-1276.webp",
       "width": 1276,
       "height": 956,
-      "srcSet": "/assets/projects/tokyo-2-480.webp 480w, /assets/projects/tokyo-2-960.webp 960w, /assets/projects/tokyo-2-1276.webp 1276w",
+      "srcSet": "/assets/projects/tokyo-2-480.webp 480w, /assets/projects/tokyo-2-1276.webp 1276w",
       "thumbnail": "/assets/projects/tokyo-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -479,7 +479,7 @@
       "src": "/assets/projects/tokyo-3-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-3-480.webp 480w, /assets/projects/tokyo-3-960.webp 960w, /assets/projects/tokyo-3-1281.webp 1281w",
+      "srcSet": "/assets/projects/tokyo-3-480.webp 480w, /assets/projects/tokyo-3-1281.webp 1281w",
       "thumbnail": "/assets/projects/tokyo-3-480.webp",
       "phase": "setup",
       "caption": {
@@ -492,7 +492,7 @@
       "src": "/assets/projects/tokyo-4-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-4-480.webp 480w, /assets/projects/tokyo-4-960.webp 960w, /assets/projects/tokyo-4-1281.webp 1281w",
+      "srcSet": "/assets/projects/tokyo-4-480.webp 480w, /assets/projects/tokyo-4-1281.webp 1281w",
       "thumbnail": "/assets/projects/tokyo-4-480.webp",
       "phase": "final",
       "caption": {
@@ -504,10 +504,10 @@
   ],
   "keppel": [
     {
-      "src": "/assets/projects/keppel-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/keppel-1-480.webp 480w, /assets/projects/keppel-1-960.webp 960w, /assets/projects/keppel-1-1600.webp 1600w, /assets/projects/keppel-1-2200.webp 2200w",
+      "src": "/assets/projects/keppel-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/keppel-1-480.webp 480w, /assets/projects/keppel-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/keppel-1-480.webp",
       "phase": "final",
       "caption": {
@@ -517,10 +517,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/keppel-2-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/keppel-2-480.webp 480w, /assets/projects/keppel-2-960.webp 960w, /assets/projects/keppel-2-1600.webp 1600w, /assets/projects/keppel-2-2200.webp 2200w",
+      "src": "/assets/projects/keppel-2-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/keppel-2-480.webp 480w, /assets/projects/keppel-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/keppel-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -533,7 +533,7 @@
       "src": "/assets/projects/keppel-3-1281.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/keppel-3-480.webp 480w, /assets/projects/keppel-3-960.webp 960w, /assets/projects/keppel-3-1281.webp 1281w",
+      "srcSet": "/assets/projects/keppel-3-480.webp 480w, /assets/projects/keppel-3-1281.webp 1281w",
       "thumbnail": "/assets/projects/keppel-3-480.webp",
       "phase": "final",
       "caption": {
@@ -545,10 +545,10 @@
   ],
   "blum": [
     {
-      "src": "/assets/projects/blum-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/blum-1-480.webp 480w, /assets/projects/blum-1-960.webp 960w, /assets/projects/blum-1-1600.webp 1600w, /assets/projects/blum-1-2200.webp 2200w",
+      "src": "/assets/projects/blum-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/blum-1-480.webp 480w, /assets/projects/blum-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/blum-1-480.webp",
       "phase": "final",
       "caption": {
@@ -560,10 +560,10 @@
   ],
   "panasonic": [
     {
-      "src": "/assets/projects/panasonic-1-2200.webp",
-      "width": 2200,
-      "height": 1650,
-      "srcSet": "/assets/projects/panasonic-1-480.webp 480w, /assets/projects/panasonic-1-960.webp 960w, /assets/projects/panasonic-1-1600.webp 1600w, /assets/projects/panasonic-1-2200.webp 2200w",
+      "src": "/assets/projects/panasonic-1-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/panasonic-1-480.webp 480w, /assets/projects/panasonic-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/panasonic-1-480.webp",
       "phase": "final",
       "caption": {
@@ -576,7 +576,7 @@
       "src": "/assets/projects/panasonic-2-1280.webp",
       "width": 1280,
       "height": 960,
-      "srcSet": "/assets/projects/panasonic-2-480.webp 480w, /assets/projects/panasonic-2-960.webp 960w, /assets/projects/panasonic-2-1280.webp 1280w",
+      "srcSet": "/assets/projects/panasonic-2-480.webp 480w, /assets/projects/panasonic-2-1280.webp 1280w",
       "thumbnail": "/assets/projects/panasonic-2-480.webp",
       "phase": "setup",
       "caption": {
@@ -586,10 +586,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/panasonic-3-2200.webp",
-      "width": 2200,
-      "height": 1238,
-      "srcSet": "/assets/projects/panasonic-3-480.webp 480w, /assets/projects/panasonic-3-960.webp 960w, /assets/projects/panasonic-3-1600.webp 1600w, /assets/projects/panasonic-3-2200.webp 2200w",
+      "src": "/assets/projects/panasonic-3-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/panasonic-3-480.webp 480w, /assets/projects/panasonic-3-1600.webp 1600w",
       "thumbnail": "/assets/projects/panasonic-3-480.webp",
       "phase": "design",
       "caption": {
@@ -629,10 +629,10 @@
   ],
   "medical": [
     {
-      "src": "/assets/projects/oxford-1-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/oxford-1-480.webp 480w, /assets/projects/oxford-1-960.webp 960w, /assets/projects/oxford-1-1600.webp 1600w, /assets/projects/oxford-1-1920.webp 1920w",
+      "src": "/assets/projects/oxford-1-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/oxford-1-480.webp 480w, /assets/projects/oxford-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/oxford-1-480.webp",
       "phase": "artwork",
       "caption": {
@@ -642,10 +642,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/oxford-2-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/oxford-2-480.webp 480w, /assets/projects/oxford-2-960.webp 960w, /assets/projects/oxford-2-1600.webp 1600w, /assets/projects/oxford-2-1920.webp 1920w",
+      "src": "/assets/projects/oxford-2-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/oxford-2-480.webp 480w, /assets/projects/oxford-2-1600.webp 1600w",
       "thumbnail": "/assets/projects/oxford-2-480.webp",
       "phase": "artwork",
       "caption": {
@@ -655,10 +655,10 @@
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/nf1-1-1920.webp",
-      "width": 1920,
-      "height": 1080,
-      "srcSet": "/assets/projects/nf1-1-480.webp 480w, /assets/projects/nf1-1-960.webp 960w, /assets/projects/nf1-1-1600.webp 1600w, /assets/projects/nf1-1-1920.webp 1920w",
+      "src": "/assets/projects/nf1-1-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "srcSet": "/assets/projects/nf1-1-480.webp 480w, /assets/projects/nf1-1-1600.webp 1600w",
       "thumbnail": "/assets/projects/nf1-1-480.webp",
       "phase": "artwork",
       "caption": {

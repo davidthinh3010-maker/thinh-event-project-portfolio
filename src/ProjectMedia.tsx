@@ -18,6 +18,16 @@ const phaseLabels: Record<string, Record<Lang, string>> = {
   archive: { en: 'ARCHIVE', vi: 'ẢNH LƯU TRỮ' },
 };
 export const phaseLabel = (photo: Photo, lang: Lang) => phaseLabels[photo.phase]?.[lang] || photo.phase;
+const phaseOrder: Record<string, number> = {
+  design: 0,
+  artwork: 0,
+  setup: 1,
+  finishing: 2,
+  final: 3,
+  live: 4,
+  overview: 5,
+  archive: 6,
+};
 
 export function ProjectImage({ projectId, lang, className = '', sizes = '180px' }: {
   projectId: string; lang: Lang; className?: string; sizes?: string;
@@ -30,7 +40,9 @@ export function ProjectImage({ projectId, lang, className = '', sizes = '180px' 
 }
 
 export function ProjectGallery({ projectId, name, lang }: { projectId: string; name: string; lang: Lang }) {
-  const photos = projectMedia[projectId] || [];
+  const photos = [...(projectMedia[projectId] || [])].sort((a, b) =>
+    (phaseOrder[a.phase] ?? 99) - (phaseOrder[b.phase] ?? 99)
+  );
   const [selected, setSelected] = useState(0);
   if (!photos.length) return <div className="story-only-card"><span>{lang === 'en' ? 'PROJECT WORKFLOW' : 'QUY TRÌNH DỰ ÁN'}</span><strong>{name}</strong><p>{lang === 'en' ? 'Explore the responsibilities and delivery process alongside.' : 'Xem phần trách nhiệm và quy trình triển khai của dự án.'}</p></div>;
   const photo = photos[selected];
@@ -50,7 +62,7 @@ export function ProjectGallery({ projectId, name, lang }: { projectId: string; n
       {photos.map((item, index) => <button key={item.src} type="button" onClick={() => setSelected(index)} aria-pressed={selected === index}
         aria-label={`${index + 1}. ${item.caption[lang]}`}>
         <img src={item.thumbnail} width={item.width} height={item.height} alt="" loading="lazy" decoding="async" />
-        <span>{phaseLabel(item, lang)}</span>
+        <span><b>{String(index + 1).padStart(2, '0')}</b>{phaseLabel(item, lang)}</span>
       </button>)}
     </div>}
     {photo.phase !== 'overview' && <a className="original-image" href={photo.src} target="_blank" rel="noreferrer">

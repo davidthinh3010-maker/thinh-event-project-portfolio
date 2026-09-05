@@ -409,95 +409,160 @@
   ],
   "prada": [
     {
-      "src": "/assets/projects/prada-1-1600.webp",
-      "width": 1600,
-      "height": 1200,
-      "srcSet": "/assets/projects/prada-1-480.webp 480w, /assets/projects/prada-1-1600.webp 1600w",
-      "thumbnail": "/assets/projects/prada-1-480.webp",
-      "phase": "final",
-      "caption": {
-        "en": "Prada — completed exhibition-room approach",
-        "vi": "Prada — lối vào không gian triển lãm"
-      },
-      "position": "50% 50%"
-    },
-    {
-      "src": "/assets/projects/prada-2-1281.webp",
+      "src": "/assets/projects/prada-new-2-1600.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/prada-2-480.webp 480w, /assets/projects/prada-2-1281.webp 1281w",
-      "thumbnail": "/assets/projects/prada-2-480.webp",
+      "srcSet": "/assets/projects/prada-new-2-480.webp 480w, /assets/projects/prada-new-2-1600.webp 1281w",
+      "thumbnail": "/assets/projects/prada-new-2-480.webp",
       "phase": "final",
       "caption": {
-        "en": "Exhibition-room interior and display details",
-        "vi": "Nội thất và chi tiết trưng bày"
+        "en": "Prada Milano — branded wall completed and aligned",
+        "vi": "Prada Milano — vách nhận diện đã hoàn thiện và căn chỉnh"
       },
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/prada-3-1600.webp",
-      "width": 1600,
-      "height": 1200,
-      "srcSet": "/assets/projects/prada-3-480.webp 480w, /assets/projects/prada-3-1600.webp 1600w",
-      "thumbnail": "/assets/projects/prada-3-480.webp",
+      "src": "/assets/projects/prada-new-3-1600.webp",
+      "width": 1281,
+      "height": 961,
+      "srcSet": "/assets/projects/prada-new-3-480.webp 480w, /assets/projects/prada-new-3-1600.webp 1281w",
+      "thumbnail": "/assets/projects/prada-new-3-480.webp",
+      "phase": "setup",
+      "caption": {
+        "en": "Room preparation and display elements during setup",
+        "vi": "Chuẩn bị không gian và các hạng mục trưng bày trong giai đoạn setup"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/prada-new-1-1600.webp",
+      "width": 960,
+      "height": 1280,
+      "srcSet": "/assets/projects/prada-new-1-480.webp 480w, /assets/projects/prada-new-1-1600.webp 960w",
+      "thumbnail": "/assets/projects/prada-new-1-480.webp",
+      "phase": "finishing",
+      "caption": {
+        "en": "Branded wall installed while finishing checks continued",
+        "vi": "Vách nhận diện đã lắp đặt trong quá trình kiểm tra hoàn thiện"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/prada-new-4-1600.webp",
+      "width": 960,
+      "height": 1280,
+      "srcSet": "/assets/projects/prada-new-4-480.webp 480w, /assets/projects/prada-new-4-1600.webp 960w",
+      "thumbnail": "/assets/projects/prada-new-4-480.webp",
       "phase": "final",
       "caption": {
-        "en": "Product display and finishing details",
-        "vi": "Chi tiết trưng bày và hoàn thiện"
+        "en": "Completed Prada identity wall from the room entrance",
+        "vi": "Vách nhận diện Prada hoàn thiện nhìn từ lối vào"
       },
       "position": "50% 50%"
     }
   ],
   "tokyo": [
     {
-      "src": "/assets/projects/tokyo-1-1281.webp",
+      "src": "/assets/projects/tokyo-new-1-1600.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-1-480.webp 480w, /assets/projects/tokyo-1-1281.webp 1281w",
-      "thumbnail": "/assets/projects/tokyo-1-480.webp",
+      "srcSet": "/assets/projects/tokyo-new-1-480.webp 480w, /assets/projects/tokyo-new-1-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-1-480.webp",
       "phase": "final",
       "caption": {
-        "en": "Tokyo Festival — completed Saigon Centre installation",
-        "vi": "Tokyo Festival — hạng mục hoàn thiện tại Saigon Centre"
+        "en": "Japan Festival — completed installation in daylight",
+        "vi": "Japan Festival — toàn cảnh hoàn thiện ban ngày"
       },
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/tokyo-2-1276.webp",
-      "width": 1276,
-      "height": 956,
-      "srcSet": "/assets/projects/tokyo-2-480.webp 480w, /assets/projects/tokyo-2-1276.webp 1276w",
-      "thumbnail": "/assets/projects/tokyo-2-480.webp",
-      "phase": "setup",
-      "caption": {
-        "en": "Overnight structural installation",
-        "vi": "Lắp dựng kết cấu xuyên đêm"
-      },
-      "position": "50% 50%"
-    },
-    {
-      "src": "/assets/projects/tokyo-3-1281.webp",
+      "src": "/assets/projects/tokyo-new-2-1600.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-3-480.webp 480w, /assets/projects/tokyo-3-1281.webp 1281w",
-      "thumbnail": "/assets/projects/tokyo-3-480.webp",
+      "srcSet": "/assets/projects/tokyo-new-2-480.webp 480w, /assets/projects/tokyo-new-2-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-2-480.webp",
       "phase": "setup",
       "caption": {
-        "en": "Detail work during installation",
-        "vi": "Thi công chi tiết tại hiện trường"
+        "en": "Steel support frame prepared for the suspended Japan Festival facade",
+        "vi": "Bộ khung thép được chuẩn bị để treo hệ trang trí Japan Festival"
       },
       "position": "50% 50%"
     },
     {
-      "src": "/assets/projects/tokyo-4-1281.webp",
+      "src": "/assets/projects/tokyo-new-3-1600.webp",
       "width": 1281,
       "height": 961,
-      "srcSet": "/assets/projects/tokyo-4-480.webp 480w, /assets/projects/tokyo-4-1281.webp 1281w",
-      "thumbnail": "/assets/projects/tokyo-4-480.webp",
+      "srcSet": "/assets/projects/tokyo-new-3-480.webp 480w, /assets/projects/tokyo-new-3-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-3-480.webp",
+      "phase": "setup",
+      "caption": {
+        "en": "Steel members and materials arranged during frame construction",
+        "vi": "Khung thép và vật tư trong quá trình lắp dựng"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/tokyo-new-4-1600.webp",
+      "width": 1281,
+      "height": 961,
+      "srcSet": "/assets/projects/tokyo-new-4-480.webp 480w, /assets/projects/tokyo-new-4-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-4-480.webp",
+      "phase": "setup",
+      "caption": {
+        "en": "Installing finished panels onto the structural frame",
+        "vi": "Lắp các mảng hoàn thiện lên bộ khung kết cấu"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/tokyo-new-5-1600.webp",
+      "width": 1281,
+      "height": 961,
+      "srcSet": "/assets/projects/tokyo-new-5-480.webp 480w, /assets/projects/tokyo-new-5-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-5-480.webp",
+      "phase": "finishing",
+      "caption": {
+        "en": "Lighting, cherry blossoms and facade elements during final checks",
+        "vi": "Kiểm tra cuối hệ đèn, hoa anh đào và các chi tiết mặt dựng"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/tokyo-new-6-1600.webp",
+      "width": 1281,
+      "height": 961,
+      "srcSet": "/assets/projects/tokyo-new-6-480.webp 480w, /assets/projects/tokyo-new-6-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-6-480.webp",
       "phase": "final",
       "caption": {
-        "en": "Installation illuminated at night",
-        "vi": "Không gian được chiếu sáng ban đêm"
+        "en": "Completed Japan Festival installation illuminated at night",
+        "vi": "Toàn cảnh Japan Festival hoàn thiện vào ban đêm"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/tokyo-new-7-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/tokyo-new-7-480.webp 480w, /assets/projects/tokyo-new-7-1600.webp 1600w",
+      "thumbnail": "/assets/projects/tokyo-new-7-480.webp",
+      "phase": "final",
+      "caption": {
+        "en": "Lantern gateway detail after lighting completion",
+        "vi": "Chi tiết cổng đèn lồng sau khi hoàn thiện ánh sáng"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/tokyo-new-8-1600.webp",
+      "width": 1281,
+      "height": 961,
+      "srcSet": "/assets/projects/tokyo-new-8-480.webp 480w, /assets/projects/tokyo-new-8-1600.webp 1281w",
+      "thumbnail": "/assets/projects/tokyo-new-8-480.webp",
+      "phase": "final",
+      "caption": {
+        "en": "Illuminated sakura detail and wave-pattern base",
+        "vi": "Chi tiết hoa sakura phát sáng và chân đế họa tiết sóng"
       },
       "position": "50% 50%"
     }
@@ -664,6 +729,73 @@
       "caption": {
         "en": "NF1 scientific seminar — event artwork, 20 April 2026",
         "vi": "Sinh hoạt khoa học NF1 — thiết kế sự kiện ngày 20/04/2026"
+      },
+      "position": "50% 50%"
+    }
+  ],
+  "gintell": [
+    {
+      "src": "/assets/projects/gintell-1-1600.webp",
+      "width": 1200,
+      "height": 1600,
+      "srcSet": "/assets/projects/gintell-1-480.webp 480w, /assets/projects/gintell-1-1600.webp 1200w",
+      "thumbnail": "/assets/projects/gintell-1-480.webp",
+      "phase": "scope",
+      "caption": {
+        "en": "Existing Gintell storefront with the dismantling scope marked before work began",
+        "vi": "Mặt tiền Gintell với phạm vi tháo dỡ được xác định trước khi triển khai"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/gintell-2-1600.webp",
+      "width": 1200,
+      "height": 1600,
+      "srcSet": "/assets/projects/gintell-2-480.webp 480w, /assets/projects/gintell-2-1600.webp 1200w",
+      "thumbnail": "/assets/projects/gintell-2-480.webp",
+      "phase": "before",
+      "caption": {
+        "en": "Existing storefront and store condition before dismantling",
+        "vi": "Hiện trạng mặt tiền và cửa hàng trước khi tháo dỡ"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/gintell-3-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/gintell-3-480.webp 480w, /assets/projects/gintell-3-1600.webp 1600w",
+      "thumbnail": "/assets/projects/gintell-3-480.webp",
+      "phase": "dismantling",
+      "caption": {
+        "en": "Vendor team carrying out the controlled dismantling and clearance",
+        "vi": "Đội ngũ vendor triển khai tháo dỡ và thu dọn có kiểm soát"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/gintell-4-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/gintell-4-480.webp 480w, /assets/projects/gintell-4-1600.webp 1600w",
+      "thumbnail": "/assets/projects/gintell-4-480.webp",
+      "phase": "handover",
+      "caption": {
+        "en": "Frontage secured while the unit moved into the handover stage",
+        "vi": "Mặt tiền được che chắn khi mặt bằng chuyển sang giai đoạn bàn giao"
+      },
+      "position": "50% 50%"
+    },
+    {
+      "src": "/assets/projects/gintell-5-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "srcSet": "/assets/projects/gintell-5-480.webp 480w, /assets/projects/gintell-5-1600.webp 1600w",
+      "thumbnail": "/assets/projects/gintell-5-480.webp",
+      "phase": "returned",
+      "caption": {
+        "en": "Interior after removal, cleared and prepared for site return",
+        "vi": "Không gian bên trong sau tháo dỡ, được thu dọn để hoàn trả mặt bằng"
       },
       "position": "50% 50%"
     }

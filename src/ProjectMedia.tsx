@@ -8,6 +8,11 @@ export type Photo = {
 };
 export const projectMedia = mediaData as Record<string, Photo[]>;
 const phaseLabels: Record<string, Record<Lang, string>> = {
+  scope: { en: 'SCOPE CONFIRMATION', vi: 'XÁC ĐỊNH PHẠM VI' },
+  before: { en: 'EXISTING CONDITION', vi: 'HIỆN TRẠNG BAN ĐẦU' },
+  dismantling: { en: 'DISMANTLING', vi: 'THÁO DỠ' },
+  handover: { en: 'HANDOVER PREPARATION', vi: 'CHUẨN BỊ BÀN GIAO' },
+  returned: { en: 'SITE RETURNED', vi: 'MẶT BẰNG SAU HOÀN TRẢ' },
   artwork: { en: 'EVENT ARTWORK', vi: 'THIẾT KẾ SỰ KIỆN' },
   setup: { en: 'SETUP', vi: 'THI CÔNG' },
   finishing: { en: 'FINISHING', vi: 'HOÀN THIỆN' },
@@ -19,6 +24,11 @@ const phaseLabels: Record<string, Record<Lang, string>> = {
 };
 export const phaseLabel = (photo: Photo, lang: Lang) => phaseLabels[photo.phase]?.[lang] || photo.phase;
 const phaseOrder: Record<string, number> = {
+  scope: 0,
+  before: 1,
+  dismantling: 2,
+  handover: 3,
+  returned: 4,
   design: 0,
   artwork: 0,
   setup: 1,
